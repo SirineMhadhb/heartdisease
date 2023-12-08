@@ -13,7 +13,7 @@ app = Flask(__name__)
 model = LogisticRegression()  # Assurez-vous de charger votre modèle correctement
 
 # Load your dataset
-data = pd.read_csv('.\heart_disease_data.csv')
+data = pd.read_csv('heart_disease_data.csv')
 
 
 # Assuming 'target' is the column name containing the target variable
