@@ -1,0 +1,15 @@
+
+
+gunicorn
+flask
+jinja2
+joblib
+matplotlib 
+numpy
+pandas
+plotly
+plotly-express
+scikit-learn
+seaborn
+requirements.txt
+
