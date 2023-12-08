@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <style>
+        /* Mettez votre CSS ici */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('/static/si.jpg'); /* Set the path to your background image */
+            background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+            background-position: center; /* Adjust as needed (left, right, center, etc.) */
+            background-repeat: no-repeat;
+            max-width: 10000%; /* Ensure the image doesn't exceed the container width */
+            max-height: 10000%;
+            
+            
+         
+        }
+        h1 {
+            color: #162f9e;
+            text-align: center; 
+            height: 50;
+            
+        }
+       
+              .center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* Optional: Set a height for vertical centering */
+}
+form {
+            background-color: white;
+            padding: 60px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+            
+        }
+
+.centered-image {
+    max-width: 80%; /* Ensure the image doesn't exceed the container width */
+    max-height: 80%; /* Ensure the image doesn't exceed the container height */
+}
+        .green-text {
+            color: #1c841f;
+             text-align: center; 
+             font-size: 24px; 
+            padding: 10px; 
+
+        }
+        
+
+        .red-text {
+            color: #c02525;     
+            text-align: center;
+            font-size: 24px; 
+            padding: 10px; 
+        }
+        
+    </style>
+</head>
+<!-- <body>
+    <h1>Prediction Result</h1>
+    <p>{{ prediction }}</p>
+</body> -->
+<body>
+    <form action="">
+    
+    <h1>Prediction Result</h1>
+    {% if prediction == 'Pas de maladie cardiaque' %}
+        <p class="green-text">{{ prediction }}</p>
+        <img  src="/static/4.jpg" alt="Centered Image" class="centered-image"/>
+    {% else %}
+        <p class="red-text">{{ prediction }}</p>
+        <div class="center-container">
+            <img src="/static/3.jpg" alt="Centered Image" class="centered-image">
+        </div>
+        
+    {% endif %}
+</form>
+</body>
+
+</html>
