@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Administrator/Desktop/sirineisned/mlruns/0/8372b0e45ba44bcfa6022ca983852836/artifacts
+end_time: 1732534124992
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8372b0e45ba44bcfa6022ca983852836
+run_name: aged-conch-416
+run_uuid: 8372b0e45ba44bcfa6022ca983852836
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732534115219
+status: 3
+tags: []
+user_id: Administrator

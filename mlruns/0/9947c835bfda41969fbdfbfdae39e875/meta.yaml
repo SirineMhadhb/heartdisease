@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Administrator/Desktop/sirineisned/mlruns/0/9947c835bfda41969fbdfbfdae39e875/artifacts
+end_time: 1731445162206
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9947c835bfda41969fbdfbfdae39e875
+run_name: charming-toad-950
+run_uuid: 9947c835bfda41969fbdfbfdae39e875
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731445158866
+status: 3
+tags: []
+user_id: Administrator

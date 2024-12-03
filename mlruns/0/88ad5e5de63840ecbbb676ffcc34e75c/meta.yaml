@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Administrator/Desktop/sirineisned/mlruns/0/88ad5e5de63840ecbbb676ffcc34e75c/artifacts
+end_time: 1731442259974
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 88ad5e5de63840ecbbb676ffcc34e75c
+run_name: gaudy-lynx-197
+run_uuid: 88ad5e5de63840ecbbb676ffcc34e75c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731442256608
+status: 3
+tags: []
+user_id: Administrator
